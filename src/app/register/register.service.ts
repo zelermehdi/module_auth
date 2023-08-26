@@ -7,7 +7,7 @@ import { catchError } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class RegisterService {
-  private readonly serverUrl = 'http://localhost:8080'; // Mettez à jour avec votre URL de backend
+  private readonly serverUrl = 'http://localhost:8080'; 
 
   constructor(private http: HttpClient) {}
 
