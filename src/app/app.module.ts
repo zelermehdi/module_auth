@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { AuthModule } from './auth/auth.module';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http'; 
 import { AuthInterceptor } from "./auth.interceptor";
+import { RegisterModule } from './register/register.module';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { AuthInterceptor } from "./auth.interceptor";
     BrowserModule,
     AppRoutingModule,
     AuthModule,
+    RegisterModule,
     HttpClientModule
   ],
   providers: [
